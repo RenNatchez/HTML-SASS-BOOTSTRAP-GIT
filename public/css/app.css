@@ -16570,9 +16570,14 @@ body {
   margin: 0;
 }
 
+footer a {
+  font-size: 40px;
+}
+
 header {
-  background-image: url(../img/banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), url("../img/banner.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 header .titre {
   padding-top: 11vw;
@@ -16603,9 +16608,10 @@ header .titre button {
 }
 
 .img-foot {
-  background-image: url(../img/banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), url("../img/banner.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 section .titre-section {
